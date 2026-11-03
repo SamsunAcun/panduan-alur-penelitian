@@ -1,0 +1,19 @@
+# Hasil ekspor; sumber Markdown tetap disimpan.
+*.docx
+*.pdf
+*.epub
+*.html
+
+# Berkas sistem dan sementara.
+.DS_Store
+._*
+~$*
+*.tmp
+*.log
+.venv/
+__pycache__/
+
+# Tempat data lokal yang sengaja tidak dibagikan.
+data-pribadi/
+rahasia/
+.env
