@@ -18,9 +18,25 @@ Contoh ini diadaptasi dari pola permintaan kerja yang pernah dipakai dalam penel
 
 > Verifikasi `[angka/klaim]` ke sumber primer atau sumber resmi. Periksa dulu berkas di folder referensi; jika perlu sumber daring, berikan tautan asli. Tunjukkan bagian yang mendukung angka atau klaim itu. Tandai `[CEK]` bila belum terbukti dan jangan menebak.
 
+## Saat daftar sumber belum lengkap
+
+> Baca `[daftar sumber yang belum diperoleh]` dan folder referensi lokal. Kelompokkan sumber yang sudah ada, yang dapat diakses secara sah, yang perlu dicari lagi, dan yang tidak tersedia. Cari pengganti hanya jika fungsinya setara, lalu jelaskan perbedaannya. Perbarui daftar kerja; jangan menulis klaim dari sumber yang belum dibaca.
+
+## Saat melanjutkan pekerjaan AI lain
+
+> Baca status dan hasil terakhir di `[folder perencanaan]`. Cocokkan klaim "selesai" dengan berkas yang benar-benar ada. Jelaskan apa yang sudah selesai, apa yang masih tertunda, dan temuan yang perlu saya putuskan. Cek saja dulu; jangan lanjut ke fase berikutnya.
+
 ## Saat pekerjaan terlalu besar
 
-> Buat rencana per fase untuk `[tujuan]`. Untuk tiap fase, sebutkan keluaran, berkas yang akan disentuh, cara memeriksa hasil, dan hal yang perlu diputuskan peneliti. Simpan rencana di folder perencanaan. Kerjakan satu fase dahulu agar hasilnya bisa saya periksa.
+> Buat rencana per fase untuk `[tujuan]`. Untuk tiap fase, sebutkan keluaran, berkas yang akan disentuh, cara memeriksa hasil, dan hal yang perlu diputuskan peneliti. Simpan rencana di folder perencanaan. Kerjakan **satu fase saja**, laporkan hasilnya, lalu berhenti sampai saya mengonfirmasi fase berikutnya.
+
+## Saat ingin mempertahankan suara penulis
+
+> Baca `[contoh tulisan asli]`. Buat pedoman singkat tentang pilihan kata, panjang kalimat, cara membuka argumen, dan cara memakai sumber. Tunjukkan contoh kalimat yang mendukung setiap simpulan. Setelah itu revisi satu paragraf contoh di `[draf]` tanpa mengubah maksud penulis. Tunggu pemeriksaan saya sebelum menerapkan ke seluruh naskah.
+
+## Saat menyusun modul atau naskah panjang
+
+> Audit `[satu unit/bab]` terhadap `[sumber dan tujuan pembelajaran]`. Apakah penjelasannya cukup untuk dipakai pembaca, atau masih terasa seperti ringkasan? Tunjukkan konsep yang belum dijelaskan, contoh yang kurang, latihan yang belum cocok, dan sumber yang diperlukan. Perbaiki satu unit dahulu; simpan keputusan dan sumber di catatan kerja agar unit lain tetap konsisten.
 
 ## Saat menyesuaikan naskah dengan template
 
@@ -33,5 +49,9 @@ Contoh ini diadaptasi dari pola permintaan kerja yang pernah dipakai dalam penel
 ## Saat keluaran sudah dibuat
 
 > Cek `[DOCX/PDF/PPTX]` terhadap `[naskah acuan]` dan `[template jika ada]`. Periksa isi yang hilang, urutan bagian, tata letak, tabel, nomor halaman, dan catatan. Jelaskan temuan yang dapat dibuktikan, lalu perbaiki berkas keluaran yang sama jika memang itu berkas yang akan dibagikan. Setelahnya, buka atau render ulang hasilnya.
+
+## Saat berkas akan dibagikan keluar
+
+> Buat versi siap dibagikan dari `[naskah]`. Hilangkan catatan kerja, penanda internal, dan komentar yang tidak ditujukan kepada pembaca, tetapi jangan sembunyikan klaim atau kutipan yang masih `[CEK]`. Periksa isi dan tampilan hasil akhir terhadap naskah acuan sebelum menyebutnya siap.
 
 Pola yang berulang: sebutkan **berkas**, **masalah**, **batas perubahan**, dan **cara memeriksa hasil**. Satu kalimat yang jelas sering cukup; panjang prompt bukan ukuran ketelitiannya.
