@@ -4,7 +4,7 @@ Repositori ini adalah **bahan tutorial umum** untuk memulai, menulis, memeriksa,
 
 ## Mulai di sini
 
-**Ikuti [tutorial langkah demi langkah](MULAI-DI-SINI.md)** untuk membuat proyek pertama sampai DOCX dan commit Git.
+**Ikuti [tutorial langkah demi langkah](MULAI-DI-SINI.md)** untuk membuat proyek pertama sampai DOCX dan commit Git. Jika masih bingung memilih topik atau judul, mulai dari [AI sebagai teman kerja](AI-TEMAN-KERJA.md). Setiap proyek baru membawa [aturan kerja penelitian](contoh-proyek/ATURAN-KERJA.md).
 
 Urutan cepat: clone repositori → pasang alat → buat proyek sendiri → isi brief dan sumber → tulis naskah → periksa dan commit → ekspor dokumen. Rincian alat ada di [daftar alat](PERKAKAS.md).
 
@@ -28,6 +28,7 @@ Folder `alat/` tersedia saat repositori di-clone. Skrip pemasangan memasang prog
 ```text
 contoh-proyek/
 ├── README.md
+├── ATURAN-KERJA.md
 ├── 01-SUMBER/README.md
 ├── 02-NASKAH/draf.md
 ├── 03-PERENCANAAN/

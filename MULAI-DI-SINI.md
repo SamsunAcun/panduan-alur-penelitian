@@ -25,6 +25,12 @@ Sekarang `riset-saya` adalah folder penelitian Anda sendiri dan sudah memiliki G
 open ../riset-saya
 ```
 
+Baca `riset-saya/ATURAN-KERJA.md` sebelum mulai. Aturan ini ikut tersalin ke setiap proyek baru.
+
+## Jika belum punya topik atau judul
+
+Buka [panduan AI sebagai teman kerja](AI-TEMAN-KERJA.md). Di sana ada permintaan siap pakai untuk mencari calon topik, mempersempit pertanyaan, menguji ketersediaan sumber, menyusun kerangka, dan memeriksa draf. Pilihan akhir tetap ditentukan dan diperiksa oleh Anda. Setelah punya pertanyaan kerja, lanjut ke langkah 2.
+
 ## 2. Rencanakan dan kumpulkan sumber
 
 1. Isi `riset-saya/03-PERENCANAAN/BRIEF.md`: pertanyaan, tujuan, batas, dan metode awal.
@@ -79,7 +85,7 @@ Saat satu tahap selesai, periksa perubahan dari folder proyek:
 cd ../riset-saya
 git status
 git diff
-git add .gitignore README.md 01-SUMBER/README.md 02-NASKAH/draf.md 03-PERENCANAAN/BRIEF.md 03-PERENCANAAN/rencana.md 06-KELUARAN/README.md 07-REFERENSI/DAFTAR-SUMBER.md
+git add .gitignore README.md ATURAN-KERJA.md 01-SUMBER/README.md 02-NASKAH/draf.md 03-PERENCANAAN/BRIEF.md 03-PERENCANAAN/rencana.md 06-KELUARAN/README.md 07-REFERENSI/DAFTAR-SUMBER.md
 git diff --cached
 git commit -m "Rumuskan masalah dan mulai draf"
 ```
