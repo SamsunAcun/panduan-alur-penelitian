@@ -13,7 +13,7 @@ Repositori ini adalah **bahan tutorial umum** untuk memulai, menulis, memeriksa,
 
 | Tahap | Yang dikerjakan | Hasil yang dicatat |
 |---|---|---|
-| 1. Rumuskan | Tulis pertanyaan, tujuan, batasan, dan rencana metode. | `01-BRIEF.md` |
+| 1. Rumuskan | Tulis pertanyaan, tujuan, batasan, dan rencana metode. | `03-PERENCANAAN/BRIEF.md` |
 | 2. Kumpulkan | Simpan sumber asli secara sah; catat penulis, judul, tahun, URL atau lokasi, dan tanggal akses bila relevan. | `07-REFERENSI/DAFTAR-SUMBER.md` |
 | 3. Baca dan uji | Baca bagian relevan; pisahkan isi sumber, ringkasan, dan penilaian Anda. Periksa halaman dan konteks kutipan. | Catatan sumber dengan nomor halaman yang benar |
 | 4. Tulis | Susun argumen di Markdown. Tautkan setiap klaim penting ke sumber yang telah diperiksa. | `02-NASKAH/draf.md` |
@@ -29,10 +29,11 @@ Folder `alat/` tersedia saat repositori di-clone. Skrip pemasangan memasang prog
 ```text
 contoh-proyek/
 ├── README.md
-├── 01-BRIEF.md
 ├── 01-SUMBER/README.md
 ├── 02-NASKAH/draf.md
-├── 03-PERENCANAAN/rencana.md
+├── 03-PERENCANAAN/
+│   ├── BRIEF.md
+│   └── rencana.md
 ├── 06-KELUARAN/README.md
 └── 07-REFERENSI/DAFTAR-SUMBER.md
 ```

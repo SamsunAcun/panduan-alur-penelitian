@@ -23,11 +23,11 @@ git config --global user.email "anda@example.com"
 
 ## 2. Ubah contoh
 
-Buka `contoh-proyek/01-BRIEF.md` dan isi satu pertanyaan penelitian latihan. Lalu periksa:
+Buka `contoh-proyek/03-PERENCANAAN/BRIEF.md` dan isi satu pertanyaan penelitian latihan. Lalu periksa:
 
 ```bash
 git status
-git diff -- contoh-proyek/01-BRIEF.md
+git diff -- contoh-proyek/03-PERENCANAAN/BRIEF.md
 ```
 
 `git diff` menampilkan baris yang ditambah dan dihapus. Periksa isinya sebelum memasukkannya ke riwayat.
@@ -35,7 +35,7 @@ git diff -- contoh-proyek/01-BRIEF.md
 ## 3. Simpan satu tahap
 
 ```bash
-git add contoh-proyek/01-BRIEF.md
+git add contoh-proyek/03-PERENCANAAN/BRIEF.md
 git diff --cached
 git commit -m "Isi pertanyaan penelitian latihan"
 git log --oneline -3
@@ -44,7 +44,7 @@ git log --oneline -3
 `git add` memilih berkas untuk commit; `git commit` menyimpan tahapnya. Pilih berkas satu per satu agar data yang tidak boleh dibagikan tidak ikut masuk. Jika salah memilih sebelum commit:
 
 ```bash
-git restore --staged contoh-proyek/01-BRIEF.md
+git restore --staged contoh-proyek/03-PERENCANAAN/BRIEF.md
 ```
 
 Perintah itu membatalkan pilihan untuk commit dan mempertahankan suntingan di berkas.
@@ -67,7 +67,7 @@ Salin folder `contoh-proyek` ke **lokasi lain** dan beri nama sesuai riset Anda.
 ```bash
 git init
 git status
-git add README.md 01-BRIEF.md 01-SUMBER 02-NASKAH 03-PERENCANAAN 06-KELUARAN 07-REFERENSI
+git add README.md 01-SUMBER 02-NASKAH 03-PERENCANAAN 06-KELUARAN 07-REFERENSI
 git diff --cached
 git commit -m "Mulai proyek penelitian"
 ```
