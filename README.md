@@ -4,9 +4,9 @@ Repositori ini adalah **bahan tutorial umum** untuk memulai, menulis, memeriksa,
 
 ## Mulai di sini
 
-1. Baca [daftar alat](PERKAKAS.md). Git dan editor teks cukup untuk latihan pertama.
+1. Pada macOS, jalankan `bash alat/pasang-macos.sh --gui` dari root repositori, lalu buka Terminal baru dan jalankan `bash alat/periksa.sh`. Baca [daftar alat](PERKAKAS.md) untuk rincian.
 2. Ikuti [latihan Git](PANDUAN-GIT.md) untuk membuat perubahan dan commit.
-3. Buka [contoh proyek](contoh-proyek/README.md), lalu salin strukturnya ke folder penelitian milik Anda sendiri.
+3. Buat folder penelitian sendiri dengan `bash alat/proyek-baru.sh /jalur/proyek-baru`. Buka [contoh proyek](contoh-proyek/README.md) dan [panduan alat kerja](alat/README.md) untuk ekspor, OCR, dan sitasi.
 4. Kerjakan tahapan di bawah dan simpan setiap tahap yang sudah diperiksa sebagai commit terpisah.
 
 ## Alur penelitian
@@ -22,6 +22,8 @@ Repositori ini adalah **bahan tutorial umum** untuk memulai, menulis, memeriksa,
 
 Git mencatat perubahan **berkas yang dimasukkan ke commit**. Ia bukan pengganti cadangan sumber asli, data sensitif, atau basis data pengelola referensi. Jangan unggah data peserta penelitian, dokumen berlisensi terbatas, kata sandi, atau bahan yang belum diizinkan untuk dibagikan.
 
+Folder `alat/` tersedia saat repositori di-clone. Skrip pemasangan memasang program di komputer pengguna; skrip kerja menjalankan program itu pada berkas yang dipilih. Hasil OCR ditulis ke `.baru.md` agar dapat diperiksa sebelum dipakai.
+
 ## Struktur latihan
 
 ```text
@@ -36,11 +38,11 @@ Contoh sengaja tidak berisi klaim akademik atau sitasi nyata. Isi dengan sumber 
 
 ## Memakai repositori ini bersama orang lain
 
-Setelah pemilik menerbitkan repositori ini dan memberikan URL, pengguna dapat menjalankan:
+Repositori publik ini dapat diambil dengan:
 
 ```bash
-git clone <URL-REPOSITORI>
+git clone https://github.com/SamsunAcun/panduan-alur-penelitian.git
 cd PANDUAN-ALUR-PENELITIAN
 ```
 
-Nama folder hasil `clone` dapat berbeda jika Anda memilih nama sendiri. Saat ini repositori disiapkan secara lokal; URL publik belum diatur.
+Nama folder hasil `clone` dapat berbeda jika Anda memilih nama sendiri.

@@ -3,6 +3,8 @@
 *.pdf
 *.epub
 *.html
+*.baru.md
+referensi.json
 
 # Berkas sistem dan sementara.
 .DS_Store

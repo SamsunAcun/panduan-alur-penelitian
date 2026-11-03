@@ -14,6 +14,16 @@ Pasang alat sesuai tahap yang akan dipakai. Semua alat di bawah dapat diganti de
 | Saat membaca PDF pindaian | Tesseract, Docling, Python 3 | OCR dan ekstraksi struktur; hasil tetap harus diperiksa |
 | Sesuai kebutuhan | qpdf, ocrmypdf | Memecah atau memberi lapisan teks pada PDF |
 
+## Pasang otomatis pada macOS
+
+```bash
+bash alat/pasang-macos.sh --gui
+```
+
+Skrip memasang Git, Pandoc, Tectonic, Poppler, Tesseract serta data bahasa Indonesia, qpdf, ocrmypdf, pipx, dan Docling. Opsi `--gui` juga memasang Zotero dan LibreOffice. [Homebrew](https://brew.sh/) harus tersedia lebih dulu. Buka Terminal baru setelah pemasangan.
+
+**Better BibTeX** dipasang dari [situs resminya](https://retorque.re/zotero-better-bibtex/) melalui Zotero. Ekspor koleksi sebagai Better CSL JSON dengan pembaruan otomatis. Editor Markdown dapat dipilih sendiri. Skrip pemasangan ini khusus macOS; pada sistem lain pasang alat menurut dokumentasi resminya dan jalankan `bash alat/periksa.sh`.
+
 ## Periksa pemasangan
 
 ```bash
@@ -26,6 +36,8 @@ tesseract --version
 
 Jika sebuah perintah belum tersedia, pasang dari sumber resmi alat itu untuk sistem operasi Anda. Untuk latihan Git pertama, cukup perintah `git --version` yang harus berhasil.
 
+Pemeriksaan lengkap untuk alur OCR: `bash alat/periksa.sh`.
+
 ## Contoh ekspor dokumen
 
 Dari folder yang berisi naskah Markdown:
@@ -36,3 +48,5 @@ pandoc 02-NASKAH.md --pdf-engine=tectonic -o naskah.pdf
 ```
 
 Perintah PDF kedua memerlukan Tectonic. Selalu buka hasilnya untuk memeriksa tabel, catatan kaki, sitasi, dan halaman.
+
+Perintah kerja lengkap ada di [panduan `alat/`](alat/README.md).
