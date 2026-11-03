@@ -2,6 +2,8 @@
 
 Jika Anda belum tahu harus meneliti apa, mulai dari sini. AI dapat membantu menyusun pilihan dan menunjukkan langkah berikutnya. **AI tidak menentukan kebenaran sumber atau keputusan akhir penelitian.** Ikuti [aturan kerja](contoh-proyek/ATURAN-KERJA.md) pada setiap tahap.
 
+Untuk permintaan sehari-hari setelah proyek berjalan, lihat [contoh prompt kerja](CONTOH-PROMPT-KERJA.md).
+
 Gunakan AI yang dapat membaca folder proyek lokal. Buka folder `riset-saya` di aplikasi AI tersebut dan minta AI membaca `README.md` serta `ATURAN-KERJA.md` lebih dulu. Jika AI hanya berbentuk chat, salin isi brief dan catatan sumber yang relevan ke percakapan; jangan kirim data yang tidak boleh dibagikan.
 
 ## 1. Belum punya topik
