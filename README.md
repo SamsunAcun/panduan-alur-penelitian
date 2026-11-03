@@ -6,6 +6,8 @@ Repositori ini adalah **bahan tutorial umum** untuk memulai, menulis, memeriksa,
 
 **Ikuti [tutorial langkah demi langkah](MULAI-DI-SINI.md)** untuk membuat proyek pertama sampai DOCX dan commit Git. Jika masih bingung memilih topik atau judul, mulai dari [AI sebagai teman kerja](AI-TEMAN-KERJA.md). Setiap proyek baru membawa [aturan kerja penelitian](contoh-proyek/ATURAN-KERJA.md).
 
+Jika memakai AI yang dapat menjalankan Terminal di macOS, salin [satu prompt untuk setup dari awal](SETUP-SEKALI-DENGAN-AI.md). Prompt itu menyertakan alamat repositori, pemasangan alat, pemeriksaan OCR, dan pembuatan proyek kosong.
+
 Setelah proyek berjalan, gunakan [contoh prompt kerja](CONTOH-PROMPT-KERJA.md) untuk memeriksa metode, sumber, draf, template, dan berkas keluaran.
 
 Urutan cepat: clone repositori → pasang alat → buat proyek sendiri → isi brief dan sumber → tulis naskah → periksa dan commit → ekspor dokumen. Rincian alat ada di [daftar alat](PERKAKAS.md).

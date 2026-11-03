@@ -2,6 +2,8 @@
 
 Panduan singkat ini memakai **macOS**. Ketik perintah di Terminal satu blok per langkah. Repositori ini berisi alat dan contoh kosong; penelitian Anda dibuat di folder tersendiri.
 
+Jika AI Anda dapat menjalankan Terminal dan mengelola berkas lokal, gunakan [satu prompt setup dari awal](SETUP-SEKALI-DENGAN-AI.md). Langkah di bawah dapat dipakai jika Anda ingin memasang sendiri atau memeriksa pekerjaan AI.
+
 ## 1. Ambil alat dan buat proyek
 
 ```bash
