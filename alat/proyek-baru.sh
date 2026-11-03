@@ -6,7 +6,7 @@ tujuan="$1"
 command -v git >/dev/null || { echo "Git belum terpasang." >&2; exit 1; }
 asal="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 mkdir -p "$tujuan"
-cp "$asal/contoh-proyek/"*.md "$tujuan/"
+cp -R "$asal/contoh-proyek/." "$tujuan/"
 cp "$asal/.gitignore" "$tujuan/.gitignore"
 git -C "$tujuan" init -b main
 echo "Proyek baru siap: $tujuan"

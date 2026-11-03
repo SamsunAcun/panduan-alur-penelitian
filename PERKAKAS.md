@@ -40,11 +40,11 @@ Pemeriksaan lengkap untuk alur OCR: `bash alat/periksa.sh`.
 
 ## Contoh ekspor dokumen
 
-Dari folder yang berisi naskah Markdown:
+Dari root proyek hasil `proyek-baru.sh`:
 
 ```bash
-pandoc 02-NASKAH.md -o naskah.docx
-pandoc 02-NASKAH.md --pdf-engine=tectonic -o naskah.pdf
+pandoc 02-NASKAH/draf.md -o 06-KELUARAN/naskah.docx
+pandoc 02-NASKAH/draf.md --pdf-engine=tectonic -o 06-KELUARAN/naskah.pdf
 ```
 
 Perintah PDF kedua memerlukan Tectonic. Selalu buka hasilnya untuk memeriksa tabel, catatan kaki, sitasi, dan halaman.

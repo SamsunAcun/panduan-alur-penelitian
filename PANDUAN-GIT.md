@@ -67,7 +67,7 @@ Salin folder `contoh-proyek` ke **lokasi lain** dan beri nama sesuai riset Anda.
 ```bash
 git init
 git status
-git add README.md 01-BRIEF.md 02-NASKAH.md 03-DAFTAR-SUMBER.md
+git add README.md 01-BRIEF.md 01-SUMBER 02-NASKAH 03-PERENCANAAN 06-KELUARAN 07-REFERENSI
 git diff --cached
 git commit -m "Mulai proyek penelitian"
 ```

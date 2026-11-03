@@ -22,11 +22,11 @@ Homebrew harus tersedia lebih dulu. Opsi `--gui` memasang Zotero dan LibreOffice
 ## Markdown ke dokumen
 
 ```bash
-bash alat/build.sh contoh-proyek/02-NASKAH.md docx
-bash alat/build.sh contoh-proyek/02-NASKAH.md pdf
+bash alat/build.sh contoh-proyek/02-NASKAH/draf.md docx contoh-proyek/06-KELUARAN/naskah.docx
+bash alat/build.sh contoh-proyek/02-NASKAH/draf.md pdf contoh-proyek/06-KELUARAN/naskah.pdf
 ```
 
-Hasil ditulis di samping naskah. Skrip tidak menimpa keluaran yang sudah ada. Untuk mengubah sumber non-PDF ke Markdown:
+Hasil disimpan di folder keluaran. Skrip tidak menimpa berkas yang sudah ada. Untuk mengubah sumber non-PDF ke Markdown:
 
 ```bash
 bash alat/ke-markdown.sh dokumen.docx
