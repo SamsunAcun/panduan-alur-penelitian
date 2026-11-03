@@ -4,15 +4,15 @@ Git memberi jejak kapan dan mengapa naskah berubah. Latihan ini memakai berkas c
 
 ## 1. Ambil repositori
 
-Setelah pemilik memberikan URL:
+Ambil repositori tutorial:
 
 ```bash
-git clone <URL-REPOSITORI>
-cd PANDUAN-ALUR-PENELITIAN
+git clone https://github.com/SamsunAcun/panduan-alur-penelitian.git alat-penelitian
+cd alat-penelitian
 git status
 ```
 
-Ganti `<URL-REPOSITORI>` dengan URL sebenarnya. Jika menerima salinan folder tanpa `.git`, Anda dapat membaca tutorialnya, tetapi tidak menerima riwayat commit.
+Jika menerima salinan folder tanpa `.git`, Anda dapat membaca tutorialnya, tetapi tidak menerima riwayat commit.
 
 Atur identitas commit pada komputer sendiri, jika belum pernah:
 
@@ -62,14 +62,12 @@ Jangan menjalankan `git add .` tanpa meninjau seluruh berkas. Hindari `git reset
 
 ## 5. Membuat repositori untuk riset Anda sendiri
 
-Salin folder `contoh-proyek` ke **lokasi lain** dan beri nama sesuai riset Anda. Dari dalam salinan itu:
+Buat proyek baru di luar repositori tutorial:
 
 ```bash
-git init
+bash alat/proyek-baru.sh ../riset-saya
+cd ../riset-saya
 git status
-git add README.md 01-SUMBER 02-NASKAH 03-PERENCANAAN 06-KELUARAN 07-REFERENSI
-git diff --cached
-git commit -m "Mulai proyek penelitian"
 ```
 
-Jangan menaruh repositori baru di dalam repositori tutorial ini. Sebelum mengunggah riset Anda, periksa izin berbagi untuk naskah, sumber, data peserta, dan setiap berkas yang telah masuk riwayat.
+Skrip menyalin contoh kosong dan menjalankan `git init`. Isi brief dan naskah sebelum commit pertama. Jangan menaruh repositori baru di dalam repositori tutorial ini. Sebelum mengunggah riset Anda, periksa izin berbagi untuk naskah, sumber, data peserta, dan setiap berkas yang telah masuk riwayat.

@@ -56,6 +56,7 @@ Di Zotero, pasang Better BibTeX. Ekspor koleksi sebagai **Better CSL JSON** deng
 
 ```bash
 bash alat/sitasi.sh naskah.md referensi.json
+bash alat/sitasi.sh naskah.md referensi.json hasil.docx
 bash alat/sitasi.sh naskah.md referensi.json gaya.csl hasil.docx
 ```
 

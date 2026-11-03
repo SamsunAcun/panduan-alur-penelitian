@@ -2,6 +2,10 @@
 set -euo pipefail
 [[ $# -ge 2 && $# -le 4 ]] || { echo "Pakai: bash alat/sitasi.sh naskah.md referensi.json [gaya.csl] [keluaran.docx]" >&2; exit 2; }
 naskah="$1"; bib="$2"; csl="${3:-}"; keluaran="${4:-${naskah%.md}-sitasi.docx}"
+if [[ $# -eq 3 && "$csl" != *.csl ]]; then
+  keluaran="$csl"
+  csl=""
+fi
 [[ -f "$naskah" && -f "$bib" ]] || { echo "Naskah atau bibliografi tidak ada." >&2; exit 1; }
 [[ ! -e "$keluaran" ]] || { echo "Keluaran sudah ada: $keluaran" >&2; exit 1; }
 command -v pandoc >/dev/null || { echo "Pandoc belum terpasang." >&2; exit 1; }

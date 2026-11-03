@@ -4,10 +4,9 @@ Repositori ini adalah **bahan tutorial umum** untuk memulai, menulis, memeriksa,
 
 ## Mulai di sini
 
-1. Pada macOS, jalankan `bash alat/pasang-macos.sh --gui` dari root repositori, lalu buka Terminal baru dan jalankan `bash alat/periksa.sh`. Baca [daftar alat](PERKAKAS.md) untuk rincian.
-2. Ikuti [latihan Git](PANDUAN-GIT.md) untuk membuat perubahan dan commit.
-3. Buat folder penelitian sendiri dengan `bash alat/proyek-baru.sh /jalur/proyek-baru`. Buka [contoh proyek](contoh-proyek/README.md) dan [panduan alat kerja](alat/README.md) untuk ekspor, OCR, dan sitasi.
-4. Kerjakan tahapan di bawah dan simpan setiap tahap yang sudah diperiksa sebagai commit terpisah.
+**Ikuti [tutorial langkah demi langkah](MULAI-DI-SINI.md)** untuk membuat proyek pertama sampai DOCX dan commit Git.
+
+Urutan cepat: clone repositori → pasang alat → buat proyek sendiri → isi brief dan sumber → tulis naskah → periksa dan commit → ekspor dokumen. Rincian alat ada di [daftar alat](PERKAKAS.md).
 
 ## Alur penelitian
 
@@ -45,8 +44,8 @@ Contoh sengaja tidak berisi klaim akademik atau sitasi nyata. Isi dengan sumber 
 Repositori publik ini dapat diambil dengan:
 
 ```bash
-git clone https://github.com/SamsunAcun/panduan-alur-penelitian.git
-cd PANDUAN-ALUR-PENELITIAN
+git clone https://github.com/SamsunAcun/panduan-alur-penelitian.git alat-penelitian
+cd alat-penelitian
 ```
 
 Nama folder hasil `clone` dapat berbeda jika Anda memilih nama sendiri.
